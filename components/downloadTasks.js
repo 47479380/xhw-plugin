@@ -6,7 +6,7 @@ import path from "path";
 import { promisify } from "util";
 import { pipeline } from "node:stream";
 import fs from "fs";
-const mode="DEV"
+const mode=""
 //项目路径
 const _path = process.cwd();
 class downloadTasks {
