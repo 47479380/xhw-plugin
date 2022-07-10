@@ -17,7 +17,7 @@ export async function seTu(e){
 
   try {
     if (files.length===0){
-      e.reply([segment.image(`file:///${_path}/plugins/xhw-plugins/resources/setu/bukeyisese.png`)]);
+      e.reply([segment.image(`file:///${_path}/plugins/xhw-plugin/resources/setu/bukeyisese.png`)]);
       if (!tasks.isRun()){
 
         tasks.start(20)
